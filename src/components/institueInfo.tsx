@@ -1,0 +1,27 @@
+import Avatar from "./Avatar";
+
+interface Institute {
+    name: string;
+    from: number;
+    to: number;
+    imgURL: string;
+}
+
+const InstituteComponent = (props: Institute) => {
+    const n = props.to;
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+    const years = currentYear - n;
+
+    return (
+        <div className="flex flex-row justify-between gap-2 dark:bg-black bg-white p-2 rounded">
+            <Avatar imgURL={props.imgURL} />
+            <div className="flex-auto">
+                <div className="">{props.name}</div>
+                <div className="text-sm text-gray-500">{props.from}-{n}</div>
+            </div>
+            <div className="text-sm text-gray-500 ">{years}y ago</div>
+        </div>
+    );
+};
+export default InstituteComponent;
