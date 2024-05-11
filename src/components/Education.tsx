@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const EducationSection = () => {
     return (
-        <div className="rounded p-2 dark:bg-white bg-black dark:bg-opacity-10 bg-opacity-10">
+        <div className="rounded p-2 backdrop-blur">
             <div className="text-lg">Education</div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
                 <div className="flex flex-row justify-between gap-2 bg-black p-2 rounded">
