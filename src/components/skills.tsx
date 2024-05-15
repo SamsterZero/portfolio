@@ -38,6 +38,7 @@ const Skills = () => {
                 </ul>
             </div>
         </>
-    );
+    )
 };
+
 export default Skills;
