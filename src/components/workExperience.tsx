@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Avatar from "./Avatar";
 
 const WorkExperience = () => {
     return (
@@ -23,11 +22,9 @@ const WorkExperience = () => {
                                 <span className="flex-1">
                                     SBI General Insurance
                                     <span className="text-base font-normal text-slate-500">
-                                        {" "}
                                     </span>
                                 </span>
                                 <span className="text-sm font-normal text-gray-500">
-                                    {" "}
                                     2 years ago
                                 </span>
                             </h4>
