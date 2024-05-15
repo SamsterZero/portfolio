@@ -32,7 +32,7 @@ const WorkExperience = () => {
                                 Was reponsible for maintaining existing applicaitons which were working on Java 8,Spring framework & JSP by adding new functionalities & resolving defects.
                                 Also migrated applications from versions older than Java 8 & running on Struts to standard Java 8 & Spring Boot framework.
                                 Identified & reduced number of applications by merging API's from different applications with similar use cases into a single web application using Spring Boot & Thymeleaf.
-                                This later on lead to development of other single page dashboard applications using REACT as well as Spring Boot.{" "}
+                                This later on lead to development of other single page dashboard applications using REACT as well as Spring Boot.
                             </p>
                         </div>
                     </li>
