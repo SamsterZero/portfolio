@@ -12,6 +12,7 @@ const Avatar = (props: AvatarProps) => {
                 width={100}
                 height={100}
                 priority
+                className="max-w-full rounded-full"
             />
         </div>
     );

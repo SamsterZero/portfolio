@@ -14,7 +14,7 @@ const InstituteComponent = (props: Institute) => {
     const years = currentYear - n;
 
     return (
-        <div className="flex flex-row justify-between gap-2 dark:bg-black bg-white p-2 rounded">
+        <div className="flex flex-row justify-between gap-2 p-2 rounded dark:bg-black bg-white">
             <Avatar src={props.src} />
             <div className="flex-auto">
                 <div className="">{props.name}</div>

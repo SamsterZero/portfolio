@@ -3,19 +3,45 @@ import Avatar from "./Avatar";
 
 const WorkExperience = () => {
     return (
-        <div className="rounded p-2 bg-gray-500">
+        <>
             <h2>Work xp:</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
-                <div className="flex flex-row justify-between gap-2 dark:bg-black bg-white p-2 rounded">
-                    <Avatar src={"/SCJHS.webp"} />
-                    <div className="flex-auto">
-                        <div className="">SBI General Insurance</div>
-                        <div className="text-sm text-gray-500">2022</div>
-                    </div>
-                    <div className="text-sm text-gray-500 ">Currently Working</div>
-                </div>
+            <div className="rounded px-2 py-4 dark:bg-black bg:white">
+                <ul className="relative flex flex-col gap-12 px-6 before:absolute before:top-0 before:left-8 before:h-full before:-translate-x-1/2 before:border before:border-dashed before:border-slate-200 after:absolute after:top-6 after:left-8 after:bottom-6 after:-translate-x-1/2 after:border after:border-slate-200 ">
+                    <li className="relative pl-8 ">
+                        <div className="flex flex-col flex-1 gap-4">
+                            <a href="#" className="absolute z-10 inline-flex items-center justify-center w-11 h-11 text-white rounded-full -left-4 ring-2 ring-blue-500 bg-white">
+                                <Image
+                                    src={"/sbig.jpg"}
+                                    alt="G"
+                                    width={100}
+                                    height={100}
+                                    priority
+                                    className="max-w-full rounded-full"
+                                />
+                            </a>
+                            <h4 className="flex flex-col items-start text-lg font-medium leading-8 md:flex-row lg:items-center">
+                                <span className="flex-1">
+                                    SBI General Insurance
+                                    <span className="text-base font-normal text-slate-500">
+                                        {" "}
+                                    </span>
+                                </span>
+                                <span className="text-sm font-normal text-gray-500">
+                                    {" "}
+                                    2 years ago
+                                </span>
+                            </h4>
+                            <p className=" text-slate-500">
+                                Was reponsible for maintaining existing applicaitons which were working on Java 8,Spring framework & JSP by adding new functionalities & resolving defects.
+                                Also migrated applications from versions older than Java 8 & running on Struts to standard Java 8 & Spring Boot framework.
+                                Identified & reduced number of applications by merging API's from different applications with similar use cases into a single web application using Spring Boot & Thymeleaf.
+                                This later on lead to development of other single page dashboard applications using REACT as well as Spring Boot.{" "}
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </>
     );
 };
 export default WorkExperience;

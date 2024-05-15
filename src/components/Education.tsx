@@ -22,7 +22,7 @@ const EducationSection = () => {
         }
     ];
     return (
-        <div className="rounded p-2 bg-gray-500">
+        <div className="rounded">
             <div className="text-lg">Education</div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
                 {list.map((item, index) => (
