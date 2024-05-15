@@ -1,6 +1,4 @@
-import Avatar from "./Avatar";
 import Skill from "./Skill";
-
 
 const Skills = () => {
     const skills = [
