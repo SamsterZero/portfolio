@@ -1,7 +1,7 @@
 const Skills = () => {
     return (
         <>
-            <div className="rounded p-2 backdrop-blur">
+            <div className="rounded p-2 bg-gray-500">
                 <h2>Languages:</h2>
                 <ul className="list-inside list-disc">
                     <li>Java</li>
@@ -10,7 +10,7 @@ const Skills = () => {
                     <li>Kotlin</li>
                 </ul>
             </div>
-            <div className="rounded h-fit p-2 backdrop-blur">
+            <div className="rounded h-fit p-2 bg-gray-500">
                 <h2>Frameworks:</h2>
                 <ul className="list-inside list-disc">
                     <li>Spring Boot</li>
@@ -19,7 +19,7 @@ const Skills = () => {
                     <li>htmx</li>
                 </ul>
             </div>
-            <div className="rounded h-fit p-2 backdrop-blur">
+            <div className="rounded h-fit p-2 bg-gray-500">
                 <h2>Libraries:</h2>
                 <ul className="list-inside list-disc">
                     <li>Spring Security</li>
@@ -28,7 +28,7 @@ const Skills = () => {
                     <li>jQuery</li>
                 </ul>
             </div>
-            <div className="rounded h-fit p-2 backdrop-blur">
+            <div className="rounded h-fit p-2 bg-gray-500">
                 <h2>Tools:</h2>
                 <ul className="list-inside list-disc">
                     <li>Bootstrap</li>
