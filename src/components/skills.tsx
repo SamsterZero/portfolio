@@ -1,6 +1,6 @@
 import Skill from "./Skill";
 
-const Skills = () => {
+const SkillSection = () => {
     const skills = [
         {
             src: "/html.svg",
@@ -45,4 +45,4 @@ const Skills = () => {
     )
 };
 
-export default Skills;
+export default SkillSection;

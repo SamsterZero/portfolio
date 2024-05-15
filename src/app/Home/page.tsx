@@ -1,6 +1,6 @@
 import EducationSection from "@/components/Education";
 import Profile from "@/components/profile";
-import Skills from "@/components/Skills";
+import SkillSection from "@/components/Skills";
 import WorkExperience from "@/components/workExperience";
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
                     <Profile />
                     <EducationSection />
                     <WorkExperience />
-                    <Skills />
+                    <SkillSection />
                     <div className="rounded p-2 backdrop-blur">x</div>
                     <div className="rounded p-2 backdrop-blur">x</div>
                 </div>

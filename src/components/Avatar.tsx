@@ -5,7 +5,7 @@ interface AvatarProps {
 }
 const Avatar = (props: AvatarProps) => {
     return (
-        <a className="rounded-full p-2 w-11 h-11 bg-white text-center border border-gray-500">
+        <div className="rounded-full p-2 w-11 h-11 bg-white text-center border border-gray-500">
             <Image
                 src={props.src}
                 alt="G"
@@ -14,7 +14,7 @@ const Avatar = (props: AvatarProps) => {
                 priority
                 className=""
             />
-        </a>
+        </div>
     );
 };
 export default Avatar;
