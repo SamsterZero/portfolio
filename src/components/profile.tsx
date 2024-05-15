@@ -2,12 +2,12 @@ import SocialLinks from "./socialLinks";
 
 const Profile = () => {
     return (
-        <div className="mx-auto rounded-lg w-fit p-2 backdrop-blur shadow-black drop-shadow-lg">
+        <div className="flex flex-row justify-between gap-2 rounded-lg p-2 bg-gray-500">
             <div className="rounded-full mx-auto p-7 w-20 h-20 bg-orange-500 text-center">V</div>
-            <div className="mx-auto w-fit">
+            <div className="flex-auto">
                 <h1>Vinay Mhatre</h1>
+                <SocialLinks />
             </div>
-            <SocialLinks />
         </div>
     );
 };

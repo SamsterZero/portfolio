@@ -4,7 +4,7 @@ interface Institute {
     name: string;
     from: number;
     to: number;
-    imgURL: string;
+    src: string;
 }
 
 const InstituteComponent = (props: Institute) => {
@@ -15,7 +15,7 @@ const InstituteComponent = (props: Institute) => {
 
     return (
         <div className="flex flex-row justify-between gap-2 dark:bg-black bg-white p-2 rounded">
-            <Avatar imgURL={props.imgURL} />
+            <Avatar src={props.src} />
             <div className="flex-auto">
                 <div className="">{props.name}</div>
                 <div className="text-sm text-gray-500">{props.from}-{n}</div>

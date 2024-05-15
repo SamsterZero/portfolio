@@ -8,7 +8,7 @@ const Home = () => {
         // <div className=" bg-[url(/bg.gif)] bg-cover bg-no-repeat bg-fixed p-3">
             <div className="bg-[url(/bg2.gif)]  bg-cover bg-no-repeat bg-fixed p-3">
             <div className="container rounded mx-auto p-2 flex-col gap-2">
-                <div className="grid grid-cols-1 gap-3">
+                <div className="grid grid-cols-1 gap-3 backdrop-blur">
                     <Profile />
                     <WorkExperience/>
                     <EducationSection />

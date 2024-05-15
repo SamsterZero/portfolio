@@ -1,7 +1,7 @@
 import Image from "next/image";
 const SocialLinks = () => {
     return (
-        <div className="mx-auto my-2 w-fit flex">
+        <div className="my-2 w-fit flex">
             <div className="bg-white rounded-full w-7 h-7 m-2">
                 <a
                     className="pointer-events-none lg:pointer-events-auto lg:p-0"
