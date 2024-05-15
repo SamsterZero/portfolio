@@ -1,6 +1,6 @@
 import EducationSection from "@/components/Education";
 import Profile from "@/components/profile";
-import SkillSection from "@/components/Skills";
+import SkillSection from "@/components/SkillSection";
 import WorkExperience from "@/components/workExperience";
 
 const Home = () => {

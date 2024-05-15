@@ -31,7 +31,7 @@ const SkillSection = () => {
         <>
             <div className="rounded p-3 bg-black">
                 <h2>Skills:</h2>
-                <div className="grid lg:grid-cols-9 sm:grid-cols-3 md:grid-cols-6 gap-2">
+                <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-2">
                     {skills.map((item, index) => (
                         <Skill
                             key={index}
