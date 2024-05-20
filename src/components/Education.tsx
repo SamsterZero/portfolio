@@ -15,7 +15,7 @@ const EducationSection = () => {
             src: "/jc.jfif"
         },
         {
-            name: "RamRao Adik Institue of Technology",
+            name: "D.Y. Patil R.A.I.T.",
             from: 2018,
             to: 2022,
             src: "/RAIT.jfif"
