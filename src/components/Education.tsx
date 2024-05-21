@@ -6,19 +6,19 @@ const EducationSection = () => {
             name: "Sir CJ High School",
             from: 2003,
             to: 2016,
-            src: "/SCJHS.webp"
+            src: "/icons/SCJHS.webp"
         },
         {
             name: "Navneet Jr. College",
             from: 2016,
             to: 2018,
-            src: "/jc.jfif"
+            src: "/icons/jc.jfif"
         },
         {
             name: "D.Y. Patil R.A.I.T.",
             from: 2018,
             to: 2022,
-            src: "/RAIT.jfif"
+            src: "/icons/RAIT.jfif"
         }
     ];
     return (

@@ -3,63 +3,63 @@ import Skill from "./Skill";
 const SkillSection = () => {
     const skills = [
         {
-            src: "/html.svg",
+            src: "/icons/html.svg",
             skill: "HTML"
         },
         {
-            src: "/css.svg",
+            src: "/icons/css.svg",
             skill: "CSS"
         },
         {
-            src: "/bootstrap.svg",
+            src: "/icons/bootstrap.svg",
             skill: "Bootstrap"
         },
         {
-            src: "/tailwind.svg",
+            src: "/icons/tailwind.svg",
             skill: "Tailwind"
         },
         {
-            src: "/js.svg",
+            src: "/icons/js.svg",
             skill: "Javascript"
         },
         {
-            src: "/ts.svg",
+            src: "/icons/ts.svg",
             skill: "TypeScript"
         },
         {
-            src: "/jQuery.svg",
+            src: "/icons/jQuery.svg",
             skill: "JQuery"
         },
         {
-            src: "/htmx.svg",
+            src: "/icons/htmx.svg",
             skill: "HTMX"
         },
         {
-            src: "/react.svg",
+            src: "/icons/react.svg",
             skill: "React.js"
         },
         {
-            src: "/nextjs.svg",
+            src: "/icons/nextjs.svg",
             skill: "Next.js"
         },
         {
-            src: "/java.svg",
+            src: "/icons/java.svg",
             skill: "Java"
         },
         {
-            src: "/Kotlin.svg",
+            src: "/icons/Kotlin.svg",
             skill: "Kotlin"
         },
         {
-            src: "/spring.svg",
+            src: "/icons/spring.svg",
             skill: "Spring Boot"
         },
         {
-            src: "/android.svg",
+            src: "/icons/android.svg",
             skill: "Android"
         },
         {
-            src: "/docker.svg",
+            src: "/icons/docker.svg",
             skill: "Docker"
         }
     ];

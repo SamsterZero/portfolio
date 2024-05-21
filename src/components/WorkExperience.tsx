@@ -10,7 +10,7 @@ const WorkExperience = () => {
                         <div className="flex flex-col flex-1 gap-4">
                             <a href="#" className="absolute z-10 inline-flex items-center justify-center w-11 h-11 text-white rounded-full -left-4 ring-2 ring-blue-500 bg-white">
                                 <Image
-                                    src={"/sbig.jpg"}
+                                    src={"/icons/sbig.jpg"}
                                     alt="G"
                                     width={100}
                                     height={100}
@@ -25,7 +25,7 @@ const WorkExperience = () => {
                                     </span>
                                 </span>
                                 <span className="text-sm font-normal text-gray-500">
-                                    2 years ago
+                                    2y ago
                                 </span>
                             </h4>
                             <p className="text-gray-500">

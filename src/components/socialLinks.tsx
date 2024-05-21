@@ -3,28 +3,37 @@ import SocialComponent from "./socialComponent";
 const SocialLinks = () => {
     const links = [
         {
+            href:"tel:+917400382542",
+            src:"/icons/phone.svg",
+            alt:"Phone"
+        },{
+            href:"mailto:vne.vvm@gmail.com",
+            src:"/icons/gmail.svg",
+            alt:"Gmail"
+        },
+        {
             href: "https://g.dev/VinayVijayMhatre",
-            src: "/google-dev.svg",
+            src: "/icons/google-dev.png",
             alt: "Google Developer"
         },
         {
             href: "https://github.com/SamsterZero",
-            src: "/github.svg",
+            src: "/icons/github.svg",
             alt: "Github"
         },
         {
             href: "https://www.linkedin.com/vinay-mhatre",
-            src: "/linkedin.svg",
+            src: "/icons/linkedin.svg",
             alt: "LinkedIn"
         },
         {
             href: "https://stackoverflow.com/users/22046020/vinay-mhatre",
-            src: "/stackoverflow.svg",
+            src: "/icons/stack-overflow.svg",
             alt: "Stack Overflow"
         }
     ];
     return (
-        <div className="my-2 w-fit flex">
+        <div className="w-fit flex">
             {links.map((item, index) => (
                 <SocialComponent
                     key={index}

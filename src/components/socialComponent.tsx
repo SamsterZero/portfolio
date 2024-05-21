@@ -8,7 +8,7 @@ interface Social {
 
 const SocialComponent = (props:Social) => {
     return (
-        <div className="bg-white rounded-full w-7 h-7 m-2">
+        <div className="bg-white rounded-full w-7 h-7 m-2 overflow-hidden">
             <a
                 className="lg:pointer-events-auto lg:p-0"
                 href={props.href}
