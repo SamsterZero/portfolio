@@ -19,7 +19,7 @@ const WorkExperience = () => {
                                 />
                             </a>
                             <h4 className="flex flex-col items-start text-lg font-medium leading-8 md:flex-row lg:items-center">
-                                <span className="flex-1">
+                                <span className="flex-1 p-2">
                                     SBI General Insurance
                                     <span className="text-base font-normal text-slate-500">
                                     </span>
