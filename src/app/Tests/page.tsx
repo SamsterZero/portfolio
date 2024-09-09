@@ -4,7 +4,7 @@ import Profile from "@/components/profile";
 import SkillSection from "@/components/SkillSection";
 import WorkExperience from "@/components/WorkExperience";
 
-const Home = () => {
+const Test = () => {
     const now = new Date();
     const currentYear = now.getFullYear();
     return (
@@ -29,4 +29,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Test;
