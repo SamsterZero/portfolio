@@ -3,7 +3,7 @@ import Image from "next/image";
 const WorkExperience = () => {
     return (
         <>
-            <h2 className="text-lg">Work xp:</h2>
+            <h2 className="text-lg backdrop-blur w-fit rounded">Work Experience</h2>
             <div className="rounded px-1 py-3 dark:bg-black bg-white">
                 <ul className="relative flex flex-col gap-12 px-6 before:absolute before:top-0 before:left-8 before:h-full before:-translate-x-1/2 before:border before:border-dashed dark:before:border-gray-200 before:border-gray-800 after:absolute after:top-6 after:left-8 after:bottom-6 after:-translate-x-1/2 after:border dark:after:border-gray-200 after:border-gray-800">
                     <li className="relative pl-8 ">

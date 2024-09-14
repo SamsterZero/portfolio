@@ -65,7 +65,7 @@ const SkillSection = () => {
     ];
     return (
         <>
-            <h2 className="test-lg">Skills:</h2>
+            <h2 className="test-lg backdrop-blur w-fit rounded">Skills</h2>
             <div className="rounded p-3 dark:bg-black bg-white">
                 <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-9 xl:grid-cols-9 gap-2">
                     {skills.map((item, index) => (

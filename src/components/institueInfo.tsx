@@ -15,7 +15,7 @@ const InstituteComponent = (props: Institute) => {
 
     return (
         <div className="flex flex-row justify-between gap-2 p-2 rounded dark:bg-black bg-white">
-            <Avatar src={props.src} />
+            <Avatar src={props.src} size={100}/>
             <div className="flex-auto">
                 <div className="">{props.name}</div>
                 <div className="text-sm text-gray-500">{props.from}-{n}</div>

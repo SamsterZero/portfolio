@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 interface AvatarProps {
+    size: number;
     src: string;
 }
 const Avatar = (props: AvatarProps) => {
@@ -9,8 +10,8 @@ const Avatar = (props: AvatarProps) => {
             <Image
                 src={props.src}
                 alt="G"
-                width={100}
-                height={100}
+                width={props.size}
+                height={props.size}
                 priority
                 className="flex items-center"
             />

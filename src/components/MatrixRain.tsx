@@ -11,7 +11,7 @@ const MatrixRain: React.FC = () => {
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    const fontSize = 16;
+    const fontSize = 10;
     let columns = Math.max(1, Math.floor(canvas.width / fontSize));
     const drops: number[] = new Array(columns).fill(1);
 

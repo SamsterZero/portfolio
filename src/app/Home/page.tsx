@@ -13,11 +13,8 @@ const Home = () => {
             <div className="container rounded mx-auto p-2 flex-col gap-2 bg-white bg-opacity-50 dark:bg-opacity-0 ">
                 <div className="grid grid-cols-1 gap-3">
                     <Profile />
-                    <div>
-                        <h2 className="text-lg">About Me</h2>
-                        <div className="rounded px-1 py-3 dark:bg-black bg-white">
-                            Software developer with {currentYear - 2022} years of experience
-                        </div>
+                    <div className="rounded px-1 py-3 dark:bg-black bg-white">
+                        Software developer with {currentYear - 2022} years of experience
                     </div>
                     <EducationSection />
                     <WorkExperience />

@@ -23,7 +23,7 @@ const EducationSection = () => {
     ];
     return (
         <div className="rounded">
-            <div className="text-lg">Education</div>
+            <div className="text-lg backdrop-blur w-fit rounded">Education</div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
                 {list.map((item, index) => (
                     <InstituteComponent
@@ -31,7 +31,8 @@ const EducationSection = () => {
                         name={item.name}
                         from={item.from}
                         to={item.to}
-                        src={item.src} />
+                        src={item.src}
+                    />
                 ))}
             </div>
         </div>

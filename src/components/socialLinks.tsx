@@ -30,6 +30,10 @@ const SocialLinks = () => {
             href: "https://stackoverflow.com/users/22046020/vinay-mhatre",
             src: "/icons/stack-overflow.svg",
             alt: "Stack Overflow"
+        },{
+            href: "https://www.youtube.com/@SamsterZer0",
+            src: "/icons/yt.jpg",
+            alt: "Youtube"
         }
     ];
     return (
