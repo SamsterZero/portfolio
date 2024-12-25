@@ -1,4 +1,3 @@
-import Image from "next/image";
 import SocialComponent from "./socialComponent";
 const SocialLinks = () => {
     const links = [
