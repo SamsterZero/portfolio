@@ -1,6 +1,6 @@
 import EducationSection from "@/components/Education";
 import MatrixRain from "@/components/MatrixRain";
-import Profile from "@/components/profile";
+import Profile from "@/components/Profile";
 import SkillSection from "@/components/SkillSection";
 import WorkExperience from "@/components/WorkExperience";
 
@@ -19,7 +19,7 @@ const Home = () => {
                     <EducationSection />
                     <WorkExperience />
                     <SkillSection />
-                    <div className="rounded bg-white dark:bg-black">Projects</div>
+                    {/* <div className="rounded bg-white dark:bg-black">Projects</div> */}
                 </div>
             </div>
         </div>

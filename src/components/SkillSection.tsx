@@ -1,5 +1,4 @@
 import Skill from "./Skill";
-
 const SkillSection = () => {
     const skills = [
         {
